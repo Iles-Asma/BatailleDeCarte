@@ -14,15 +14,15 @@ public class Main
     public static void jouer(Joueur joueur1, Joueur joueur2) 
     {
     	/*TABLEAUX*/
-    	String[] typeCarte = {"trefle","coeur","pique","carreaux"};
-		int[] chiffreCarte = {1,2,3,4,5,6,7,8,9,10,11,12,13};
+    	String[] type = {"trefle","coeur","pique","carreaux"};
+		int[] number = {1,2,3,4,5,6,7,8,9,10,11,12,13};
     	
         List<Carte> paquetDeCartes = new ArrayList<Carte>();
         for (int i = 0; i < 13; i++) 
         {
             for (int j = 0; j < 4; j++) 
             {
-                paquetDeCartes.add(new Carte(typeCarte[i], chiffreCarte[j]));
+                paquetDeCartes.add(new Carte(number[i], type[j]));
             }
         }
         
