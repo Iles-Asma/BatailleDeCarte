@@ -6,8 +6,8 @@ public class Carte {
 	
 	public Carte(int number, int type) {
 		
-		this.number = chiffreCarte[number];
-		this.type = typeCarte[type];
+		this.number = number;
+		this.type = type;
 	
 		
 	}
