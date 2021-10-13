@@ -2,13 +2,7 @@
 public class Carte {
 	
 	private int number;
-	private String type;
-	
-			
-		private String[] typeCarte = {"trefle","coeur","pique","carreaux"};
-		private int[] chiffreCarte = {1,2,3,4,5,6,7,8,9,10,11,12,13};
-		
-			
+	private String type;		
 	
 	public Carte(int number, int type) {
 		
